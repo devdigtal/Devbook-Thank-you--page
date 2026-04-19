@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - DevBook</title>
+    
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    
+    // Aapka Pixel ID yaha set hai
+    fbq('init', '1116246416801944'); 
+    fbq('track', 'PageView');
+    fbq('track', 'Lead'); // Yeh lead generate hote hi trigger hoga
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1116246416801944&ev=PageView&noscript=1"
+    /></noscript>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: radial-gradient(circle, #001d3d 0%, #000000 100%);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            padding: 30px;
+            border: 2px solid #ffc300;
+            border-radius: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            max-width: 450px;
+            box-shadow: 0 0 30px rgba(255, 195, 0, 0.3);
+        }
+        h1 {
+            color: #ffc300;
+            font-size: 32px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 35px;
+            background-color: #25d366;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            font-size: 22px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+        }
+        .whatsapp-btn:hover {
+            transform: scale(1.05);
+            background-color: #1ebe57;
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.6);
+        }
+        .check-icon {
+            font-size: 60px;
+            color: #ffc300;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="check-icon">✔</div>
+    <h1>Registration Successful!</h1>
+    <p>Aapki request humein mil gayi hai. Humari team aapse turant contact karegi.</p>
+    
+    <a href="https://wa.me/919279906289?text=Hi%20DevBook%2C%20I%20have%20submitted%20the%20form.%20Please%20provide%20my%20ID." class="whatsapp-btn">
+        Chat on WhatsApp
+    </a>
+</div>
+
+</body>
+</html>
